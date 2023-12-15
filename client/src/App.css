@@ -1,0 +1,404 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%;
+    background-color: #4b57f3;
+    color: #0c0c0c;
+    padding: 5px;
+  } 
+
+  .signInLink {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+
+  .registerLink {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.signupbutton {
+  width: 40%;
+  background-color: #4b57f3;
+  color: #ffffff;
+  padding: 8px;
+}
+.loginbutton {
+  width: 30%;
+  background-color: #4b57f3;
+  color: #ffffff;
+  padding: 8px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #fefefe;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-shadow: #020202
+  ;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  top: 0;
+  float: left;
+  color: #020202;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgba(230, 226, 226, 0.7);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#leftbox {
+  float: left;
+  width: 30%;
+  height: 400px;
+  flex-grow: 2;
+  border: solid 2px rgba(230, 226, 226, 0.5);
+  margin-right: 60px;
+  font-size: large;
+}
+
+#middlebox {
+  float: left;
+  width: 30%;
+  height: 400px;
+  flex-grow: 2;
+  border: solid 2px rgba(230, 226, 226, 0.5);
+  font-size: large;
+}
+
+#rightbox {
+  float: right;
+  width: 30%;
+  height: 400px;
+  flex-grow: 2;
+  border: solid 2px rgba(230, 226, 226, 0.5);
+  margin-left: 60px;
+  font-size: large;
+}
+.user-container {
+  display: flex;
+  padding: 4%;
+  margin-top: 100px;
+  color: #ffffff
+}
+.options-title {
+  width: 800px;
+  background-color:rgba(230, 226, 226, 0.5);
+  color: #000000;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 0px 0px; 
+  justify-content: center;
+}
+
+
+.option-buttons{
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.user-body {
+  background-image: url(./pictures/bluePizzaSign.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+}
+.createOrder-body {
+  background-image: url(./pictures/buffalo.jpeg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+}
+.createOrder-title {
+  width: 800px;
+  background-color:rgba(230, 226, 226, 0.7);
+  color: #020202;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 0px 0px; 
+  justify-content: center;
+}
+.createOrder-main {
+  background-color:rgba(230, 226, 226, 0.5) ;
+  width: 800px;
+  justify-content: center;
+  margin: auto;
+  color: #020202;
+}
+
+.leftbox-button, .middlebox-button, .rightbox-button {
+  background-color: #4b57f3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body .regcontainer {
+  background-image: url(./pictures/cheese2.jpeg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+}
+.regform {
+  width: 800px;
+  background-color:rgba(230, 226, 226, 0.7);
+  color: #000000;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 0px 0px; 
+  justify-content: center;
+}
+
+.main-container {
+  background-color:rgba(230, 226, 226, 0.5) ;
+  width: 800px;
+  justify-content: center;
+  margin: auto;
+}
+
+.regform, .main-container {
+  display: block;
+
+}
+
+.login-wrapper {
+  background-image: url(./pictures/veggie.jpeg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+
+}
+
+.loginForm {
+  background-color:rgba(230, 226, 226, 0.5) ;
+  width: 800px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 5px;
+
+}
+.spacebetween {
+  margin-top: 10px;
+}
+.registerLink {
+  color: #ffffff;
+}
+
+.login-title {
+    width: 800px;
+    background-color:rgba(230, 226, 226, 0.7);
+    color: #000000;
+    margin: auto;
+    margin-top: 120px;
+    padding: 10px 0px 10px 0px;
+    border-radius:15px 15px 0px 0px; 
+    justify-content: center;
+}
+
+.cart-body {
+  background-image: url(./pictures/sausage.jpeg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+
+}
+
+.cart-title {
+  width: 1000px;
+  background-color:rgba(230, 226, 226, 0.7);
+  color: #000000;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 0px 0px; 
+  justify-content: center;
+
+}
+
+.cart-main {
+  background-color:rgba(230, 226, 226, 0.5) ;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 5px;
+  justify-items: center;
+
+}
+
+table {
+  width: 1000px;
+  border-collapse: collapse;
+  color: #000000;
+}
+
+
+table td, th {
+  border: 3px solid #343434;
+  padding: 8px;
+}
+.dotted-border {
+  border: 3px dotted #000;
+  padding: 100px;
+}
+
+.home-body {
+  background-image: url(./pictures/pepperoni.jpeg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+
+}
+
+.home-title {
+  width: 1000px;
+  background-color:rgba(230, 226, 226, 0.7);
+  color: #000000;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 0px 0px; 
+  justify-content: center;
+
+}
+
+.edit-body {
+  background-image: url(./pictures/cheese2.jpeg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+
+}
+
+.edit-title {
+  width: 1000px;
+  background-color:rgba(230, 226, 226, 0.7);
+  color: #000000;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 0px 0px; 
+  justify-content: center;
+}
+
+.edit-main {
+  background-color:rgba(230, 226, 226, 0.5) ;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 5px;
+  justify-items: center;
+
+}
